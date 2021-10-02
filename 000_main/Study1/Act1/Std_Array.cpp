@@ -3,9 +3,6 @@
 
 using namespace std;
 
-
-
-
 int main( void )
 {
     std::array<int, 10> arr1;   // 크기가 10인 int 타입 배열 선언
