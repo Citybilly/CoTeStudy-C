@@ -50,7 +50,6 @@ int main()
     cout << fiveThird.getDenominator() << endl;
     cout << fiveThird.getNumerator() << endl;
     cout << fiveThird.getValue() <<  endl;
-    
 #endif
 
 #if MODE_UNIFORM
@@ -59,7 +58,6 @@ int main()
     Fraction six(6);            // Calls Fraction(int,int) constructor, second parameter uses a default value
 
     cout << x << endl;
-
     cout << fiveThird.getDenominator() << endl;
     cout << fiveThird.getNumerator() << endl;
     cout << fiveThird.getValue() <<  endl;
