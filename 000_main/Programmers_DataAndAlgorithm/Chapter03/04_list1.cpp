@@ -20,5 +20,17 @@ int main()
         cout << a << ", ";
     cout << endl;
 
+    l2.sort(); // 10, 10, 20, 20, 30, 40
+
+    for (auto a : l2)
+        cout << a << ", ";
+    cout << endl;
+
+    l2.unique();    // 10, 20, 30, 40 // 중복되는 원소는 하나만 남김
+
+    for (auto a : l2)
+        cout << a << ", ";
+    cout << endl;
+
     return 0;
 }
