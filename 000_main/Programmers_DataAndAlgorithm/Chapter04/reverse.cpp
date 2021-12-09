@@ -36,9 +36,6 @@ void reverse(vector<T>& vec)
     }
 }
 
-
-
-
 int main()
 {
     string str1 = "HELLO";
